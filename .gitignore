@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+
+history.db
+pizza_report.xlsx
+
+static/uploads/
+static/results/
+
+.DS_Store
