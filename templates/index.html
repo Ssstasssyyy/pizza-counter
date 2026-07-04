@@ -34,7 +34,7 @@
             const data = await response.json();
 
             document.getElementById("stats").innerText =
-                "Обнаружено приготовленных пицц: " + data.count;
+                "Обнаружено приготовленных пицц: " + data.pizza_count;
 
             document.getElementById("resultImage").src =
                 data.result_image + "?" + Date.now();
